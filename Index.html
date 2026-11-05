@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Eco Rush ⚡</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- INICIO -->
+
+        <section id="inicio">
+
+            <div class="logo">
+                ♻️
+            </div>
+
+            <h1>ECO RUSH</h1>
+
+            <p class="subtitulo">
+                Misión: Cero Residuos
+            </p>
+
+            <p>
+                Atrapa los residuos electrónicos,
+                consigue puntos y evita los objetos peligrosos.
+            </p>
+
+            <div class="instrucciones">
+
+                <p>📱 +10 puntos</p>
+
+                <p>💻 +15 puntos</p>
+
+                <p>🔋 +20 puntos</p>
+
+                <p>☢️ -1 vida</p>
+
+            </div>
+
+            <button id="btnInicio">
+                🚀 COMENZAR MISIÓN
+            </button>
+
+        </section>
+
+
+        <!-- JUEGO -->
+
+        <section id="juego"
+                 class="oculto">
+
+            <div class="barra">
+
+                <div>
+                    ⭐
+                    <span id="puntos">
+                        0
+                    </span>
+                </div>
+
+                <div>
+                    ❤️
+                    <span id="vidas">
+                        3
+                    </span>
+                </div>
+
+                <div>
+                    ⏱️
+                    <span id="tiempo">
+                        45
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div id="zonaJuego">
+
+                <div id="jugador">
+                    🤖
+                </div>
+
+            </div>
+
+
+            <div class="controles">
+
+                <button id="izquierda">
+                    ◀️
+                </button>
+
+                <button id="derecha">
+                    ▶️
+                </button>
+
+            </div>
+
+
+            <div id="mensaje">
+                ¡Atrapa los residuos!
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+
+        <section id="final"
+                 class="oculto">
+
+            <div class="trofeo">
+                🏆
+            </div>
+
+            <h1>
+                MISIÓN TERMINADA
+            </h1>
+
+            <p>
+                Puntuación final
+            </p>
+
+            <div id="resultado">
+                0
+            </div>
+
+            <p id="mensajeFinal">
+            </p>
+
+            <button id="btnReintentar">
+                🔥 JUGAR OTRA VEZ
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
